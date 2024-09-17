@@ -1,0 +1,54 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between each container */
+  }
+  
+  .row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc; /* Optional: adds a border around each container */
+    padding: 20px;
+  }
+  .row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc; /* Optional: adds a border around each container */
+    padding: 20px;
+  }
+  
+  .img-1{
+    width: 50%;
+  }
+  .img-2{
+    width: 40%;
+   
+  }
+  
+  .img-1 img {
+    max-width: 75%;
+    height: auto;
+  }
+  .img-2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .para-1 h1,.para-2 h1{
+    color: green;
+  }
+  
+  .para-1 {
+    width: 65%;
+    text-align: center;
+    padding: 10%;
+  }
+
+  .para-2{
+    width: 75%;
+    text-align: center;
+    padding: 10%;
+  }
+
+ 
