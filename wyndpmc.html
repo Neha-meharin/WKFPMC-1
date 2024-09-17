@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>kudumbashree</title>
+
+        <link rel="stylesheet" href="style.css">
+
+          <script src="https://kit.fontawesome.com/e5eaa60a5d.js" crossorigin="anonymous"></script>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    </head>
+<body>
+   <div id="header">
+       <div class="container">
+         
+           <nav>
+              <img src="https://th.bing.com/th/id/OIP.ViI6J221T8q853xMRM4-7gHaGu?rs=1&pid=ImgDetMain" class="logo">
+                   <ul id="sidemenu">
+                          <li><a href="#header">Home</a></li>
+                           <li><a href="#about">About</a></li>
+                           
+                           <li><a href="#contact">Contact</a></li>
+                           
+                           <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+           </nav>
+           
+
+           <div class="header-text">
+
+               <p>KKFPMC</p>
+               <h1>Wayanad Kudumbashree Food processing and Marketing cluster commitee</h1>
+
+            </div>
+
+
+       </div>
+   </div>
+
+
+
+
+
+
+  <!-------------------about--------------------------> 
+
+
+
+
+   <div id="about">
+       <div class="container">
+           <div class="row">
+                       <div class="about-col-1">
+                        <img src="download.jpeg">
+                        </div>
+               
+
+
+
+
+                        <div class="about-col-2">
+                            <h1 class="sub-title">Wayanad Overview</h1>
+                            <br><br>
+                             <p class="me">
+                               wayanad Kudumbashree Food Processing and Marketing Cluster Committee (WKFPMC) is a cluster ofKudumbashree chips making Micro Enterprises  dedicated to the production of high-quality coconut chips. Formed with the objective of leveraging the collective strengths and resources of individual units, this cluster aims to enhance productivity, ensure consistent product quality, and improve market reach for coconut chips produced by our small-scale entrepreneurs.
+                              </p>
+                              
+                   <br><br>
+                   <hr>
+                   <br>
+                   <br>
+                   
+                   <h1 class="sub-title">Key Objectives</h1>
+                        <div class="tab-titles">
+
+   
+                                 <p class="tab-links active-link" onclick="opentab('pdc')">Enhancing Production Efficiency</p>
+
+   
+                               <p class="tab-links"onclick="opentab('quality')">Ensuring Quality
+                                Control</p>
+
+   
+                                <p class="tab-links"onclick="opentab('market')">Market Expansion</p>
+
+                            </div>
+
+
+                        <div class="tab-contents active-tab" id="pdc">
+   
+                           <p>By adopting modern manufacturing techniques and sharing technological advancements, the cluster aims to improve the efficiency of coconut chips production.</p>
+
+                           </div>
+
+
+
+
+                            <div class="tab-contents" id="quality">
+   
+                                <p>Implementing standardized quality control measures across all units to ensure that every batch of coconut chips meets stringent quality standards</p>
+                               
+
+                            </div>
+
+                            <div class="tab-contents"id="market">
+                                <p>Through collective marketing efforts, the cluster seeks to expand its reach both in domestic and international markets, positioning its products as a healthy and tasty snack option</p>
+
+                            </div>
+                            <br><br>
+                            <hr>
+
+               
+
+
+
+
+
+
+
+               
+
+           </div>
+       </div>
+
+
+   </div>
+   
+   
+<!-----------------------------------------------services--------------------------------------------------- -->
+
+
+
+
+<div id="conclusion">
+   <div class="container">
+       <h1 class="last">Conclusion</h1>
+       <div class="conclusion-list">
+           <div>
+               
+              <p>The Cluster represents a significant step forward for Micro enterprise units in the kudumbashree food processing industry. By fostering a collaborative environment and leveraging collective strengths, the cluster is well-positioned to achieve sustainable growth and become a key player in the global market for healthy snack foods. This initiative not only benefits the individual units but also contributes to the economic development of the region by creating job opportunities and promoting entrepreneurship.</p>
+           </div>
+
+           <div class="img-container">
+               <img src="download.jpeg">
+           </div>
+
+          
+
+       </div>
+   </div>
+</div>
+
+
+
+
+
+<!---------------------------contact-------------------------------------------------->
+
+
+
+<div id="contact">
+
+   <div class="container">
+   
+       <div class="row">
+       
+                  <div class="contact-left">
+                         <h1 class="sub-title">Contact Us</h1>
+                         <p><i class="fas fa-paper-plane"></i>@nehamehrin09@gmail.com</p>
+                         <p><i class="fas fa-phone-square-alt"></i>8075586558</p>
+
+                           <div class="social-icons">
+                              <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                               <a href=""><i class="fab fa-twitter-square"></i></a>
+                               <a href=""><i class="fab fa-instagram"></i></a>
+                               <a href=""><i class="fab fa-linkedin"></i></a>
+
+                           </div>
+
+                          
+                     
+                     
+                   </div>
+
+
+
+                   
+        </div>
+   </div>
+
+
+
+                   <div class="copyright">
+                          <p>Copyright <span>&#169;</span> Neha.Made with <i class="fas fa-heart"></i></p>
+                   </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--------------script------------------------->
+
+
+
+
+
+
+
+
+
+       <script>
+
+               var tablinks = document.getElementsByClassName("tab-links");
+               var tabcontents = document.getElementsByClassName("tab-contents");
+               function opentab(tabname){
+               for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+                }
+               for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                }
+               event.currentTarget.classList.add("active-link");
+               document.getElementById(tabname).classList.add("active-tab")
+                }
+
+       </script>
+
+
+
+
+
+       <script>
+           var sidemenu = document.getElementById("");
+           function openmenu(){
+               sidemenu.style.right ="0";
+           }
+           function closemenu(){
+               sidemenu.style.right ="-200px";
+           }
+       </script>
+
+
+      
+</body>
+
+
+</html>
